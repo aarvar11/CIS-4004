@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Table Ordering Form</title>
+
+</head>
+
+<body>
+    <form action="#" method="post">
+     <h1>Pizza Ordering Form</h1>
+
+     <h2> Contact Information</h2>
+    <label for="name">Name:</label>
+    <input id="name" name="name" type="text" required><br>
+    
+    <label for="phone">phone:</label>
+    <input id="phone" name="phone" type="tel" required>  <br>  
+
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email" required> <br>
+
+    <h2> Select Pizza Size </h2>
+    <label for="pizzaSize">Pizza Size:</label>
+    <select name= "pizza" id="pizzaSize" required>
+        <option value="">--Select Size--</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="XLarge">xlarge</option>
+     </select><br>
+
+      <h2>Select Sauce</h2>
+      <input type="radio" id="marinara" name="sauce" value="Marinara" required>
+      <label for="marinara">Marinara</label> <br>
+
+      <input type="radio" id="ranch" name="sauce" value="Ranch">
+      <label for="ranch">ranch</label> <br>
+
+      <input type="radio" id="nosauce" name="sauce" value="NoSauce">
+      <label for="nosauce">No Sauce</label> <br>
+
+
+
+      <h2>Select Topppings</h2>
+      <input type="checkbox" id="pepperoni" name="topping" value="Pepperoni">
+      <label for="pepperoni">Pepperoni</label> 
+
+      <input type="checkbox" id="sausage" name="topping" value="Sausage">
+      <label for="sausage">Sausage:</label> <br>
+
+      <input type="checkbox" id="mushroom" name="topping" value="Mushroom">
+      <label for="Mushroom">Mushroom</label>
+
+      <input type="checkbox" id="pineapple" name="topping" value="Pineapple">
+      <label for="Pineapple">Pineapple</label><br>
+
+      <input type="checkbox" id="peppers" name="topping" value="Peppers">
+      <label for="Peppers">Peppers</label>
+
+      <input type="checkbox" id="onions" name="topping" value="Onions">
+      <label for="Onions">Onions</label><br>
+
+
+
+
+      <h2>Additional Instructions </h2>
+      <textarea id="instructions" name="instructions" rows="2" cols="30" placeholder="Add instructions"></textarea><br>
+
+      <input type="submit" value="Submit">
+      <form> <br><br>
+
+     <table border="1">
+        <caption>List of my Favorite Games </caption>
+        <tr>
+            <th>Developer</th>
+            <th>Title</th>
+            <th>Year</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Supercell</td>
+                <td>Brawl Stars</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>Clash Royale</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Clash of Clans</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>InnerSloth</td>
+                <td>Among Us</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td colspan="3">Count: 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </body>
+</html>
